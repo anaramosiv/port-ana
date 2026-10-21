@@ -225,7 +225,7 @@
               {[
                 { title: 'Desarrollo Front End con React', desc: 'Interfaces modernas con React, JavaScript y Tailwind. Me integro en proyectos existentes o arranco desde cero, con código limpio, escalable y listo para crecer.', icon: <Code className="text-primary" size={40} /> },
                 { title: 'WordPress & CMS', desc: 'Sitios complejos con Elementor, WooCommerce, JetEngine y ACF. PHP cuando hace falta. Sin depender de plugins para todo ni de soluciones que se rompen al primer update.', icon: <Layout className="text-primary" size={40} /> },
-                { title: 'UI/UX & Accesibilidad', desc: 'Prototipo en Figma e implemento con criterio. Accesibilidad según WCAG 2.1 y UNE-EN 301 549, integrada desde el diseño', icon: <Grid className="text-primary" size={40} /> },
+                { title: 'UI/UX & Accesibilidad', desc: 'Prototipo en Figma e implemento con criterio. Diseño responsivo, escalable y consistente. Accesibilidad según WCAG 2.1/2.2 y UNE-EN 301 549, integrada desde el Design System', icon: <Grid className="text-primary" size={40} /> },
                 { title: 'SEO Técnico & Rendimiento ', desc: 'Estructura semántica, velocidad de carga y optimización On-Page desde el código. No como extra, sino como parte del trabajo bien hecho.', icon: <Zap className="text-primary" size={40} /> },
               ].map(service => (
                 <motion.div 
