@@ -118,12 +118,12 @@
                   <ArrowRight size={20} />
                 </motion.a>
                 <div className="flex items-center gap-4 px-4">
-                  <a href="https://portfolioakrs.netlify.app/" className="w-12 h-12 flex items-center justify-center rounded-full bg-surface-container text-on-surface hover:bg-primary/10 transition-colors"
-                  target="_blank"   rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/anakarinaramoss/" className="w-12 h-12 flex items-center justify-center rounded-full bg-surface-container text-on-surface hover:bg-primary/10 transition-colors"
+                  target="_blank" aria-label="LinkedIn (se abre en una pestaña nueva)"  rel="noopener noreferrer">
                     <LinkIcon size={20} />
                   </a>
                   <a href="https://github.com/anaramosiv/" className="w-12 h-12 flex items-center justify-center rounded-full bg-surface-container text-on-surface hover:bg-primary/10 transition-colors"
-                  target="_blank"   rel="noopener noreferrer">
+                  target="_blank"  aria-label="GitHub (se abre en una pestaña nueva)"  rel="noopener noreferrer">
                     <Code size={20} />
                   </a>
                 </div>
@@ -182,7 +182,7 @@
                     slidesPerView: 5,
                   },
                 }}
-                className="tech-swiper opacity-60 grayscale hover:grayscale-0 transition-all duration-500"
+                className="tech-swiper"
               >
                 {[
                     { name: 'CSS', logo: cssLogo },
@@ -201,7 +201,7 @@
                         <img 
                           src={tech.logo} 
                           alt={tech.name} 
-                          className="max-w-full max-h-full object-contain"
+                          className="max-w-full max-h-full object-contain opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all duration-500"
                           referrerPolicy="no-referrer"
                         />
                       </div>

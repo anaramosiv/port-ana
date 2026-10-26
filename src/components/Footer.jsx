@@ -11,8 +11,8 @@ export const Footer = () => {
           © 2026 Todos los derechos reservados
         </div>
         <div className="flex gap-6">
-          <a className="text-on-surface-variant hover:text-primary hover:underline underline-offset-4 transition-all text-xs" href="https://github.com/anaramosiv"  target='blank'>Github</a>
-          <a className="text-on-surface-variant hover:text-primary hover:underline underline-offset-4 transition-all text-xs" href="https://www.linkedin.com/in/anakarinaramoss/" target='blank'>LinkedIn</a>
+          <a className="text-on-surface-variant hover:text-primary hover:underline underline-offset-4 transition-all text-xs" href="https://github.com/anaramosiv"   aria-label="GitHub (se abre en una pestaña nueva)" target='_blank'>Github</a>
+          <a className="text-on-surface-variant hover:text-primary hover:underline underline-offset-4 transition-all text-xs" href="https://www.linkedin.com/in/anakarinaramoss/"   aria-label="LinkedIn (se abre en una pestaña nueva)"  target='_blank'>LinkedIn</a>
         </div>
       </div>
     </footer>
